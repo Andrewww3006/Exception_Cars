@@ -54,12 +54,10 @@ public class Car{
 
             Random r = new Random();
             int i = r.nextInt(20);
-
-            if (i%2 == 0) {
+            if(i%2 == 0)
                 throw new MyException();
-            }
-            else
-            System.out.println("ok " + i);
+           else
+           System.out.println(this.brand + " ok " + i);
 
 
 

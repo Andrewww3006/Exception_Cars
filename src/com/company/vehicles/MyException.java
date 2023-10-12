@@ -1,10 +1,10 @@
 package com.company.vehicles;
 
-public class MyException extends Exception{
+public class MyException extends Throwable{
+
 
     public void signal()
-    {
-        System.out.println("Машина не завелась");
+    {      System.out.println("Машина не завелась");
     }
 
 
